@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Src/KotasAi.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>AI Poem Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Poem Generator</h1>
+            <div class="subheading">An application to make poem writing easy!</div>
+        </header>
+        <main>
+            <div class=" form-container">
+            <form id="poem-generator-form">
+                <input type="text" placeholder="Enter the topic of the poem." autofocus required
+                    autocomplete="off" class="instructions" id="instructions" />
+                <input type="submit" class="submit-button" />
+            </form>
+            <div class="hint">I.E Animals, Flowers or Nature</div>
+            </div>
+            <div class="poem hidden" id="poem"></div>
+        </main>
+        <footer>
+            This AI project was coded by
+            <a href="https://github.com/sooonotkota" target="_blank">LindsynOlivier</a>, is open-sourced on
+            <a href="https://github.com/sooonotkota/KotasAiPoem" target="_blank">Github</a>, and is hosted on
+            <a href="https://kotasaipoem.netlify.app/" target="_blank">Netlify</a>.
+        </footer>
+    </div>
+    <script src=""></script>
+</body>
+
+</html>
